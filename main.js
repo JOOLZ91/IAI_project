@@ -70,7 +70,7 @@ let jsonData;
 // FETCH DATA
 
 const domFetch = () => {
-  fetch("./xbox.json")
+  fetch("https://raw.githubusercontent.com/JOOLZ91/IAI_project/main/xbox.json")
     .then((res) => res.json())
     .then((data) => {
       jsonData = data;
