@@ -70,7 +70,7 @@ let jsonData;
 // FETCH DATA
 
 const domFetch = () => {
-  fetch("/xbox.json")
+  fetch("./xbox.json")
     .then((res) => res.json())
     .then((data) => {
       jsonData = data;
