@@ -439,6 +439,11 @@ img {
     height: 384px;
   }
 
+  img {
+    height: auto;
+    width: 229px;
+  }
+
   div.form-container {
     padding-top: 23px;
     padding-right: 20px;
