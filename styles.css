@@ -387,6 +387,40 @@ img {
   color: var(--textColor);
 }
 
+/* MEDIA FROM 568px LANDSCAPE */
+
+@media (orientation: landscape) and (min-width: 568px) {
+  .modal {
+    padding: 0px;
+    height: 310px;
+    width: 550px;
+  }
+  .modal-body {
+    flex-direction: row;
+  }
+
+  div.images-container {
+    width: 270px;
+    height: 310px;
+  }
+
+  img {
+    height: auto;
+    width: 160px;
+  }
+
+  div.form-container {
+    padding-top: 10px;
+     padding-right: 15px;
+     padding-bottom: 10px; 
+  }
+
+  .svg-icon.close {
+    top: 7px;
+    right: 5px;
+  }
+}
+
 /* MEDIA FROM 768px */
 
 @media (min-width: 768px) {
@@ -438,4 +472,4 @@ img {
     font-size: 13px;
   }
 
-}
+} 
