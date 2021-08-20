@@ -465,6 +465,11 @@ img {
     margin-left: 5px;
   }
 
+  .svg-icon.close {
+    top: 20px;
+    right: 20px;
+  }
+
   label {
     margin-right: 7px;
   }
